@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ландшафтный дизайн</title>
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="landscape-design.css">
+</head>
+<style>
+    .ld-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 73px;
+    max-width: 1170px;
+    margin-top: 73px;
+    margin-bottom: 70px;
+}
+    .ld-head-heading{
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 58.8px;
+        color: #011004;
+        max-width: 537px;
+    }
+    .ld-head-text{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 32px;
+        color: #808080;
+        max-width: 569px;
+    }
+.wide-picture{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1180px;
+    max-height: 488px;
+}
+.ld-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 140px;
+    margin-bottom: 140px;
+    max-width: 1180px;
+}
+    .ld-main-heading{
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 58.8px;
+        color: #011004;
+    }
+    .ld-main-img{
+        display: flex;
+        flex-direction: row;
+        gap: 67px;
+        margin-top: 31px;
+        margin-bottom: 64px;
+    }
+    .ld-main-button{
+        padding: 18px 48px 18px 48px;
+        background-color: #011004;
+        color: #FFFFFF;
+        width: 379px;
+    }
+.ld-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1170px;
+    margin-bottom: 140px;
+}
+    .ld-footer-heading{
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 58.8px;
+        color: #011004;
+        max-width: 863px;
+        margin-bottom: 74px;
+        text-align: center;
+    }
+    .ld-footer-section{
+        display: flex;
+        flex-direction: column;
+        gap: 52px;
+    }
+        .ld-footer-section1,
+        .ld-footer-section2,
+        .ld-footer-section3{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 32px;
+            color: #808080;
+            gap: 52px;
+            width: 1170px;
+        }
+            .ld-footer-section1-child,
+            .ld-footer-section2-child,
+            .ld-footer-section3-child{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 55px;
+            }
+</style>
+<body>
+    <div class="ld-head">
+        <div class="ld-head-heading">
+            Ваш стильный сад <br>от идеи до реализации
+        </div>
+        <div class="ld-head-text">
+            Вот уже более 6 лет мы занимаемся ландшафтным дизайном, радуя жителей Иркутска их новым благоухающим садом. Ведь как известно - “Правильный Ландшафтный дизайн —это Удовольствие для всей семьи
+        </div>
+    </div>
+    <div>
+        <img src="../static/image/ld-head.png" alt="ld-head" class="wide-picture">
+    </div>
+    <div class="ld-main">
+        <div class="ld-main-heading">
+            У нас вы сможете заказать
+        </div>
+        <div class="ld-main-img">
+            <div>
+                <img src="../static/image/we-have-left.png" alt="we-have-left">
+            </div>
+            <div>
+                <img src="../static/image/we-have-center.png" alt="we-have-center">
+            </div>
+            <div>
+                <img src="../static/image/we-have-right.png" alt="we-have-right">
+            </div>
+        </div>
+        <button class="ld-main-button">
+            Оставить заявку
+        </button>
+    </div>
+    <div class="ld-footer">
+        <div class="ld-footer-heading">
+            Обратившись к нам, наши дорогие клиенты получат
+        </div>
+        <div class="ld-footer-section">
+            <div class="ld-footer-section1">
+                <div>
+                    <img src="../static/image/img-section1.png" alt="img-section1">
+                </div>
+                <div class="ld-footer-section1-child">
+                    <div>
+                        <img src="../static/image/img-number1.png" alt="">
+                    </div>
+                    <div>
+                        Красивый и гармоничный сад, в котором каждое растение прекрасно сочетается и дополняет друг друга
+                    </div>
+                </div>
+            </div>
+            <div class="ld-footer-section2">
+                <div class="ld-footer-section2-child">
+                    <div>
+                        <img src="../static/image/img-number2.png" alt="">
+                    </div>
+                    <div>
+                        Удобство и практичность, помогут грамотно использовать каждый участок земли, чтобы вы могли свободно передвигаться между важными для вас объектами сада. При этом мы эффективно используем каждый сантиметр на участке делая его красивее
+                    </div>
+                </div>
+                <div>
+                    <img src="../static/image/img-section2.png" alt="img-section2">
+                </div>
+            </div>
+            <div class="ld-footer-section3">
+                <div>
+                    <img src="../static/image/img-section3.png" alt="img-section3">
+                </div>
+                <div class="ld-footer-section3-child">
+                    <div>
+                        <img src="../static/image/img-number3.png" alt="">
+                    </div>
+                    <div>
+                        Ваш участок будет нуждаться в минимальном количестве ухода и заботы. Нет открытой земли, которая нуждается в удалении сорняков. Растения объединены в группы по схожим требованиям агротехники, почва под ними отсыпана
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

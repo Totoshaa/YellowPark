@@ -1,0 +1,181 @@
+.contacts{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1125px;
+    margin-top: 36px;
+    margin-bottom: 36px;
+    width: 100%;
+}
+.contacts-content{
+    display: flex;
+    flex-direction: column;
+    max-width: 580px;
+    margin-right: 146px;
+}
+.contacts-content-heading{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 57px;
+    color: #011004;
+}
+.contacts-content-text{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    margin: 30px 0px 16px 0px;
+    opacity: 0.8;
+}
+.contacts-content-button{
+    color: #FFFFFF;
+    background-color: #3A6431;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: 40px;
+    max-width: 333px;
+    padding: 26px 0px;
+    transition: all 0.125s linear;
+}
+.contacts-content-button:hover,
+.contacts-content-button-adaptive:hover {
+    filter: brightness(1.2);
+}
+.contacts-content-button-adaptive{
+    color: #FFFFFF;
+    background-color: #3A6431;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: 40px;
+    width: 722px;
+    display: none;
+    transition: all 0.125s linear;
+}
+.contacts-content-numberandcity{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+.contacts-content-numberandcity-child{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    opacity: 0.8;
+    color: #011004;
+}
+.contacts-content-numberandcity-child-text{
+    margin-left: 12px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+}
+.contacts-content-surqle{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #A5C693;
+    border-radius: 50%;
+    width: 37px;
+    height: 37px;
+}
+.contacts-content-surqle-phone{
+    width: 14px;
+}
+.contacts-content-surqle-marker{
+    width: 8px;
+    filter: brightness(10);
+}
+.contacs-img-adaptive{
+    display: none;
+}
+ /* Responsive */
+
+/* Large: 992px - 1199px */
+@media (max-width: 1199px) {
+    .contacts{
+        max-width: 992px;
+    }
+    .contacts-content{
+        margin-right: 0px;
+    }
+}
+
+/* Medium: 768px - 991px */
+@media (max-width: 991px) {
+    .contacts{
+        margin-left: 24px;
+        justify-content: space-evenly;
+    }
+    .contacts-content-heading{
+        font-size: 48px;
+    }
+    .contacts-content-text{
+        font-size: 18px;
+    }
+    .contacts-content-numberandcity{
+        gap: 18px;
+    }
+    .contacts-content-numberandcity-child{
+        margin-left: 0px;
+    }
+    .contacs-img{
+        display: none;
+    }
+    .contacs-img-adaptive{
+        display: flex;
+    }
+    .contacts-content-button{
+        display: none;
+    }
+    .contacts-content-button-adaptive{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 0px;
+        margin-bottom: 46px;
+    }
+}
+
+/* Small: 576px - 767px */
+@media (max-width: 767px) {
+    .contacts-content-button-adaptive{
+        max-width: 576px;
+    }
+}
+
+/* Extra small: 0px (320px) - 575px */
+@media (max-width: 575px) {
+    .contacts{
+        margin: 0 auto;
+        max-width: 342px;
+    }
+    .contacts-content-heading{
+        font-size: 20px;
+    }
+    .contacts-content-text{
+        font-size: 12px;
+        margin: 0px 0px 19px 0px;
+    }
+    .contacts-content-surqle{
+        width: 26px;
+        height: 26px;
+    }
+    .contacts-content-numberandcity-child-text{
+        font-size: 12px;
+    }
+    .contacs-img-adaptive{
+        display: none;
+    }
+    .contacts-content-button{
+        display: flex;
+        justify-content: center;
+        margin-top: 16px;
+        padding: 12px 0px;
+        font-size: 12px;
+    }
+    .contacts-content-button-adaptive{
+        display: none;
+    }
+}

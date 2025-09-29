@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yellow Park</title>
+    <link rel="stylesheet" href="../static/slick/slick.css">
+    <link rel="stylesheet" href="../static/slick/slick-theme.css">
+    <script src="../static/jquery.js"></script>
+    <script src="../static/slick/slick.js"></script>
+    <script src="../static/script.js"></script>
+    <link rel="stylesheet" href="../static/font.css">
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+
+<body>
+    <div class="main-row">
+        <div class="header">
+            <div class="header-logo">
+                <img src="../static/icons/Logo.svg" alt="Logo">
+                <img src="../static/icons/Header-left-menu.svg" alt="Header-left-menu" class="header-content-left-menu">
+            </div>
+
+            <div class="header-content-center">
+                <a href="#">
+                    <div class="header-text-center">
+                    Главная
+                    </div>
+                </a>
+                <a href="#">    
+                    <div class="header-text-center">
+                        Статьи
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="header-text-center"> 
+                    Контакты
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="header-text-center">
+                    Доставка и оплата
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="header-text-center">
+                    О нас
+                    </div>
+                </a>
+            </div>
+            <div class="header-content-right">
+                <div class="header-content-right-child">
+                    <div class="header-surqle">
+                        <img src="../static/icons/Phone.svg" alt="Phone" style="width: 45%;">
+                    </div>
+                    <div class="header-push-phone">
+                        <a href="https://api.whatsapp.com/send/?phone=74951273780&text=Здравствуйте%2C+у+меня+есть+вопрос" target="_blank" class="header-text-phone">7 (902) 567-99-12</a>
+                    </div>
+                </div>
+                <div class="header-content-right-child header-push-right">
+                    <div>
+                        <img src="../static/icons/Marker.svg" alt="Marker">
+                    </div>
+                    <div class="header-push-marker">
+                        <a href="https://www.yandex.com/maps?ll=52.223496,104.503829" target="_blank" style="color: #3A6431;">
+                            Иркутск
+                        </a> <!--Координаты-->
+                    </div>
+                </div>
+
+                <div>
+                    <div class="header-content-right-menu">
+                        <img src="../static/icons/Header-menu.svg" alt="Header-menu">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="search-content">
+            <div class="search-line">
+                <div class="requests">
+                    <div>
+                        <!-- <select name="categories" id="categories-select" class="">
+                        <option value="">Все категории</option>
+                        <option value="dog">Наполнение</option>
+                        <option value="cat">Наполнение</option>
+                        <option value="cat">Наполнение</option>
+                        </select>  -->
+                    </div>
+                    <div class="vertical">
+                        <!-- <form action="/url" method="GET">
+                            <input type="text" name="name" placeholder="Напишите ваш запрос">
+                        </form> -->
+                    </div>
+                </div>
+                <a href="#">
+                <div class="search-button">
+                    <img src="../static/icons/Serch.svg" alt="Serch" class="serch-img">
+                </div>
+                </a>
+            </div>
+            <div class="basket basket-push-left">
+                <a href="#">
+                <div class="alert">
+                    5
+                </div>
+                <div class="basket-img">
+                    <img src="../static/icons/Basket.svg" alt="Basket">
+                </div>
+                <div class="basket-text">
+                    Корзина
+                </div>
+                </a>
+            </div>
+            <div class="favourites favourites-push-left">
+                <a href="#">
+                <div class="alert">
+                    5
+                </div>
+                <div class="favourites-img">
+                    <img src="../static/icons/Heart.svg" alt="Basket">
+                </div>
+                <div class="favourites-text">
+                    Избранное
+                </div>
+                </a>
+            </div>
+        </div>
+        <div class="categories-choosing">
+            <a href="#" class="categories-button-active">
+                <div>
+                    <img src="../static/icons/Seedlings.svg" alt="Seedlings" class="Seedlings">
+                </div>
+                <div>
+                    Саженцы
+                </div>
+            </a>
+            <a href="#" class="categories-button">
+                <div>
+                    <img src="../static/icons/Mountains.svg" alt="Mountains" class="Mountains">
+                </div>
+                <div>
+                    Ландшафтный дизайн
+                </div>
+            </a>
+            <a href="#" class="categories-button">
+                <div class="categories-button-twoimg">
+                    <img src="../static/icons/Seedling.svg" alt="Seedling" class="Seedling">
+                    <img src="../static/icons/Spade.svg" alt="Spade" class="Spade">
+                </div>
+                <div>
+                    Товары по уходу за садом
+                </div>
+            </a>
+            <a href="#" class="categories-button">
+                <div>
+                    <img src="../static/icons/Seeds.svg" alt="Seeds" class="Seeds">
+                </div>
+                <div>
+                    Семена
+                </div>
+            </a>
+        </div>
+        <main>
+            <section class="slider-outer">
+                <div class="slider-inner">
+                    <div class="first">
+                        <div class="first-inner">
+                            <h2>Откройте дверь в мир растений с нами</h2>
+                            <p>
+                                Создайте свой идеальный уголок природы с нашим широким выбором растений, семян и
+                                удобрений
+                            </p>
+                            <button class="dark">
+                                Смотреть каталог <span class="icon arrow-left-top"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="first">
+                        <div class="first-inner">
+                            <h2>Откройте дверь в мир растений с нами</h2>
+                            <p>
+                                Создайте свой идеальный уголок природы с нашим широким выбором растений, семян и
+                                удобрений
+                            </p>
+                            <button class="dark">
+                                Смотреть каталог <span class="arrow arrow-left-top"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="first">
+                        <div class="first-inner">
+                            <h2>Откройте дверь в мир растений с нами</h2>
+                            <p>
+                                Создайте свой идеальный уголок природы с нашим широким выбором растений, семян и
+                                удобрений
+                            </p>
+                            <button class="dark">
+                                Смотреть каталог <span class="icon arrow arrow-left-top"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="categories-outer">
+                <h2>Выберите интересующую категорию</h2>
+                <div class="nav-row">
+                    <div class="nav active">Растения</div>
+                    <div class="nav" style="width: min-content;">Ландшавтный дизайн</div>
+                    <div class="nav">Товары по уходу за садом</div>
+                </div>
+                <div class="categories-inner">
+                    <div class="category-outer">
+                        <img src="../static/image/pngwing 1.png" alt="">
+                        <div class="category-caption">Плодовитые<br>культуры</div>
+                    </div>
+                    <div class="category-outer">
+                        <img class="ninety" src="../static/image/pngwing 2.png" alt="">
+                        <div class="category-caption">Ягодные<br>культуры</div>
+                    </div>
+                    <div class="category-outer">
+                        <img class="full" src="../static/image/pngwing 3.png" alt="">
+                        <div class="category-caption">Декоративные<br>культуры</div>
+                    </div>
+                    <div class="category-outer">
+                        <img class="full" src="../static/image/pngwing 3.png" alt="">
+                        <div class="category-caption">Декоративные<br>культуры</div>
+                    </div>
+                </div>
+            </section>
+            <section class="ready-made">
+                <h2 class="h-line">Готовые решения</h2>
+                <div class="cards-outer">
+                    <div class="card-outer">
+                        <div class="img-wrapper">
+                            <img src="../static/image/ready-made1.png" alt="">
+                            <div class="like-btn"></div>
+                            <div class="temp"><span class="icon right tempi"></span>40°C</div>
+                            <div class="tags">
+                                <div class="tag">Синий</div>
+                                <div class="tag">Солнце</div>
+                            </div>
+                        </div>
+                        <div class="card-inner">
+                            <div class="name">Абрикос Восточный Саян</div>
+                            <div class="price-row">
+                                <div class="price">1 674 ₽</div>
+                                <div class="old-price">1 974 ₽</div>
+                            </div>
+                            <div class="rest-cout">
+                                <span>Осталось 455 шт</span>
+                                <div class="line"></div>
+                            </div>
+                            <button class="in-bucket dark"><span class="icon right card"></span>В корзину</button>
+                        </div>
+                    </div>
+                    <div class="card-outer">
+                        <div class="img-wrapper">
+                            <img src="../static/image/ready-made1.png" alt="">
+                            <div class="like-btn"></div>
+                            <div class="temp"><span class="icon right tempi"></span>40°C</div>
+                            <div class="tags">
+                                <div class="tag">Синий</div>
+                                <div class="tag">Солнце</div>
+                            </div>
+                        </div>
+                        <div class="card-inner">
+                            <div class="name">Абрикос Восточный Саян</div>
+                            <div class="price-row">
+                                <div class="price">1 674 ₽</div>
+                                <div class="old-price">1 974 ₽</div>
+                            </div>
+                            <div class="rest-cout">
+                                <span>Осталось 455 шт</span>
+                                <div class="line"></div>
+                            </div>
+                            <button class="in-bucket dark"><span class="icon right card"></span>В корзину</button>
+                        </div>
+                    </div>
+                    <div class="card-outer">
+                        <div class="img-wrapper">
+                            <img src="../static/image/ready-made1.png" alt="">
+                            <div class="like-btn"></div>
+                            <div class="temp"><span class="icon right tempi"></span>40°C</div>
+                            <div class="tags">
+                                <div class="tag">Синий</div>
+                                <div class="tag">Солнце</div>
+                            </div>
+                        </div>
+                        <div class="card-inner">
+                            <div class="name">Абрикос Восточный Саян</div>
+                            <div class="price-row">
+                                <div class="price">1 674 ₽</div>
+                                <div class="old-price">1 974 ₽</div>
+                            </div>
+                            <div class="rest-cout">
+                                <span>Осталось 455 шт</span>
+                                <div class="line"></div>
+                            </div>
+                            <button class="in-bucket dark"><span class="icon right card"></span>В корзину</button>
+                        </div>
+                    </div>
+                    <div class="card-outer">
+                        <div class="img-wrapper">
+                            <img src="../static/image/ready-made1.png" alt="">
+                            <div class="like-btn"></div>
+                            <div class="temp"><span class="icon right tempi"></span>40°C</div>
+                            <div class="tags">
+                                <div class="tag">Синий</div>
+                                <div class="tag">Солнце</div>
+                            </div>
+                        </div>
+                        <div class="card-inner">
+                            <div class="name">Абрикос Восточный Саян</div>
+                            <div class="price-row">
+                                <div class="price">1 674 ₽</div>
+                                <div class="old-price">1 974 ₽</div>
+                            </div>
+                            <div class="rest-cout">
+                                <span>Осталось 455 шт</span>
+                                <div class="line"></div>
+                            </div>
+                            <button class="in-bucket dark"><span class="icon right card"></span>В корзину</button>
+                        </div>
+                    </div>
+            </section>
+            <section class="articles">
+                <div class="h-row">
+                    <h2>Статьи</h2>
+                    <button class="light see-more">Показать все <span class="icon arrow-right"></span></button>
+                </div>
+                <div class="articles-outer">
+                    <div class="article-outer">
+                        <div class="img-wrapper">
+                            <img src="../static/image/article.png" alt="">
+                            <div class="tags">
+                                <div class="tag">#сад</div>
+                            </div>
+                        </div>
+                        <div class="article-inner">
+                            <div class="top-row">
+                                <div class="date">04 июня 2023</div>
+                                <div class="views-count"><span class="icon right eye"></span>2048</div>
+                            </div>
+                            <div class="article-content">
+                                <h3>Семена: маленькие чудеса природы</h3>
+                                <p>Семена - это начало всего живого в растительном мире. Небольшие, но полные
+                                    потенциала,
+                                    они являются ключом</p>
+                                <button class="light green right-bottom">Читать далее</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="article-outer">
+                        <div class="img-wrapper">
+                            <img src="../static/image/article.png" alt="">
+                            <div class="tags">
+                                <div class="tag">#сад</div>
+                            </div>
+                        </div>
+                        <div class="article-inner">
+                            <div class="top-row">
+                                <div class="date">04 июня 2023</div>
+                                <div class="views-count"><span class="icon right eye"></span>2048</div>
+                            </div>
+                            <div class="article-content">
+                                <h3>Семена: маленькие чудеса природы</h3>
+                                <p>Семена - это начало всего живого в растительном мире. Небольшие, но полные
+                                    потенциала,
+                                    они являются ключом</p>
+                                <button class="light green right-bottom">Читать далее</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="article-outer">
+                        <div class="img-wrapper">
+                            <img src="../static/image/article.png" alt="">
+                            <div class="tags">
+                                <div class="tag">#сад</div>
+                            </div>
+                        </div>
+                        <div class="article-inner">
+                            <div class="top-row">
+                                <div class="date">04 июня 2023</div>
+                                <div class="views-count"><span class="icon right eye"></span>2048</div>
+                            </div>
+                            <div class="article-content">
+                                <h3>Семена: маленькие чудеса природы</h3>
+                                <p>Семена - это начало всего живого в растительном мире. Небольшие, но полные
+                                    потенциала,
+                                    они являются ключом</p>
+                                <button class="light green right-bottom">Читать далее</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="light see-more invert">Показать все <span class="icon arrow-right"></span></button>
+            </section>
+            <section class="reviews">
+                <h2>Наши отзывы</h2>
+                <div class="reviews-inner">
+                    <div class="review first">
+                        <div class="avatar-outer">
+                            <img src="../static/image/review-avatar.png" alt="" class="avatar">
+                        </div>
+                        <div class="review-inner">
+                            <h3>Имя человека</h3>
+                            <div class="date">Сегодня, 14:36</div>
+                            <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum
+                                является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий
+                                безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem
+                                Ipsum
+                                для распечатки образцов.</p>
+                        </div>
+                    </div>
+                    <div class="review second">
+                        <div class="avatar-outer">
+                            <img src="../static/image/review-avatar.png" alt="" class="avatar">
+                        </div>
+                        <div class="review-inner">
+                            <h3>Имя человека</h3>
+                            <div class="date">Сегодня, 14:36</div>
+                            <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum
+                                является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий
+                                безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem
+                                Ipsum
+                                для распечатки образцов.</p>
+                        </div>
+                    </div>
+                    <div class="review third">
+                        <div class="avatar-outer">
+                            <img src="../static/image/review-avatar.png" alt="" class="avatar">
+                        </div>
+                        <div class="review-inner">
+                            <h3>Имя человека</h3>
+                            <div class="date">Сегодня, 14:36</div>
+                            <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum
+                                является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий
+                                безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem
+                                Ipsum
+                                для распечатки образцов.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact-us-outer">
+                <div class="contact-us-inner">
+                    <h2>Не нашли нужный товар?<br>Свяжитесь с нами!</h2>
+                    <p>Свяжитесь с нами и мы отвтеим на все ваши вопросы, или оставьте заявку и мы свяжимся с вами в
+                        течение 10 мин.</p>
+                    <form action="" class="contact-us-form">
+                        <input type="text" name="" id="" placeholder="Ваше имя">
+                        <input type="text" name="" id="" placeholder="Ваш номер телефона">
+                        <input type="text" name="" id="" placeholder="Ваша почта">
+                        <div class="checkbox-row">
+                            <input type="checkbox" name="" id="">
+                            <label for="">Нажимая кнопку «Оставить заявку», я соглашаюсь с политикой
+                                конфиденциальности</label>
+                        </div>
+                        <button type="submit" class="dark">Оставить заявку</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <div class="nav-row">
+        <div class="logo"></div>
+        <div class="nav-item"></div>
+        <div class="nav-item"></div>
+        <div class="nav-item"></div>
+        <div class="nav-item"></div>
+        <div class="nav-item"></div>
+        <div class="contact-data">
+            <div class="number"></div>
+            <div class="location"></div>
+        </div>
+    </div>
+    <div class="policy-wrapper">
+        <span></span>
+        <span></span>
+    </div>
+
+    <footer>
+        <div class="footer-search">
+            <img src="../static/icons/Logo.svg" alt="Logo" class="footer-logo">
+            <div class="footer-search-margins">
+                <div class="footer-center-content">
+                    Главная
+                </div>
+                <div class="footer-center-content">
+                    Статьи 
+                </div>
+                <div class="footer-center-content">
+                    Контакты
+                </div>
+                <div class="footer-center-content">
+                    Доставка и оплата
+                </div>
+                <div class="footer-center-content">
+                    О нас
+                </div>
+            </div>
+            
+            <div class="footer-contacts">
+                <div class="footer-surqle">
+                    <img src="../static/icons/Phone.svg" alt="Phone-footer" class="phone-footer">
+                </div>
+                <div>
+                    +7(999) 420 81 21
+                </div>
+            </div>
+            <div class="footer-contacts">
+                <div class="marker-footer">
+                    <img src="../static/icons/Marker.svg" alt="Marker-footer">
+                </div>
+                <div>
+                    Иркутск
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="footer-content">
+                <div class="footer-content-child-left">
+                    <div class="footer-left-img">
+                        <img src="../static/image/Footer-img-left.svg" alt="Footer-img-left">
+                    </div>
+                    <div class="footer-left-img-tablet">
+                        <img src="..//static/image/Footer-img-left-tablet.svg" alt="Footer-img-left-tablet">
+                    </div>
+    
+                    <div class="footer-contacts-adaptive">
+                        <div class="footer-surqle">
+                            <img src="../static/icons/Phone.svg" alt="Phone-footer" class="phone-footer">
+                        </div>
+                        <div class="footer-text">
+                            +7(999) 420 81 21
+                        </div>
+                    </div>
+                    <div class="footer-contacts-adaptive">
+                        <div class="footer-surqle-adaptive">
+                            <img src="../static/icons/Marker.svg" alt="Marker-footer" class="marker-footer">
+                        </div>
+                        <div class="footer-text">
+                            Иркутск
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-content-child-right">
+                    <div class="footer-text">
+                        Политика кондиценциальности
+                    </div>
+                    <div class="footer-text">
+                        Все права защищены.
+                    </div>
+                </div>
+            </div>
+            <div class="footer-right-img">
+                <img src="../static/image/Footer-img-right.svg" alt="Footer-right-img">
+            </div>
+            <div class="footer-right-img-tablet">
+                <img src="..//static/image/Footer-img-right-tablet.svg" alt="Footer-img-right-tablet">
+            </div>
+            <div class="footer-img-right-phone">
+                <img src="../static/icons/Footer-img-right-phone.svg" alt="Footer-img-right-phone">
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

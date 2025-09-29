@@ -1,0 +1,102 @@
+.ld-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 73px;
+    max-width: 1170px;
+    margin-top: 73px;
+    margin-bottom: 70px;
+}
+    .ld-head-heading{
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 58.8px;
+        color: #011004;
+        max-width: 537px;
+    }
+    .ld-head-text{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 32px;
+        color: #808080;
+        max-width: 569px;
+    }
+.wide-picture{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1180px;
+    max-height: 488px;
+}
+.ld-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 140px;
+    margin-bottom: 140px;
+    max-width: 1180px;
+}
+    .ld-main-heading{
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 58.8px;
+        color: #011004;
+    }
+    .ld-main-img{
+        display: flex;
+        flex-direction: row;
+        gap: 67px;
+        margin-top: 31px;
+        margin-bottom: 64px;
+    }
+    .ld-main-button{
+        padding: 18px 48px 18px 48px;
+        background-color: #011004;
+        color: #FFFFFF;
+        width: 379px;
+    }
+.ld-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1170px;
+    margin-bottom: 140px;
+}
+    .ld-footer-heading{
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 58.8px;
+        color: #011004;
+        max-width: 863px;
+        margin-bottom: 74px;
+        text-align: center;
+    }
+    .ld-footer-section{
+        display: flex;
+        flex-direction: column;
+        gap: 52px;
+    }
+        .ld-footer-section1,
+        .ld-footer-section2,
+        .ld-footer-section3{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 32px;
+            color: #808080;
+            gap: 52px;
+            width: 1170px;
+        }
+            .ld-footer-section1-child,
+            .ld-footer-section2-child,
+            .ld-footer-section3-child{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 55px;
+            }

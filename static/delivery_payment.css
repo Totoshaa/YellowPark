@@ -1,0 +1,102 @@
+.delivery-payment{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1175px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 46px;
+    margin-bottom: 46px;
+}
+.delivery-payment-left{
+    display: flex;
+    flex-direction: column;
+    max-width: 580px;
+    width: 100%;
+    margin-right: 102px;
+}
+.delivery-payment-heading{
+    font-size: 48px;
+    line-height: 57px;
+    color: #011004;
+    margin-bottom: 30px;
+}
+.delivery-payment-text{
+    font-size: 18px;
+    line-height: 29px;
+    color: #011004;
+    opacity: 0.8;
+}
+.delivery-payment-text-highlighting{
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 402px;
+    margin: 14px 0px 14px 0px;
+    padding: 9px 16px 9px 16px;
+    border-radius: 6px;
+    background-color: #A5C69380;
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 600;
+    color: #3A6431;
+}
+.delivery-payment-img{
+    max-width: 406px;
+}
+.delivery-payment-img-adaptive{
+    display: none;
+}
+ /* Responsive */
+
+/* Medium: 768px - 991px */
+@media (max-width: 991px) {
+    .delivery-payment-left{
+        margin-right: 0px;
+        margin-left: 24px;
+    }
+    .delivery-payment-img{
+        display: none;
+    }
+    .delivery-payment-img-adaptive{
+        display: flex;
+        margin-right: 0px;
+    }
+}
+
+/* Small: 576px - 767px */
+@media (max-width: 767px) {
+    .delivery-payment{
+        flex-direction: column;
+        align-items: center;
+        max-width: 342px;
+    }
+    .delivery-payment-heading{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .delivery-payment-text{
+        font-size: 12px;
+        line-height: 19px;
+    }
+    .delivery-payment-text-highlighting{
+        font-size: 12px;
+        padding: 9px 16px 9px 16px;
+        max-width: 279px;
+    }
+    .delivery-payment-img{
+        display: flex;
+        max-width: 238px;
+        margin-top: 10px;
+    }
+    .delivery-payment-img-adaptive{
+        display: none;
+    }
+}
+
+/* Extra small: 0px (320px) - 575px */
+@media (max-width: 575px) {
+    .container {
+        padding: 0 15px;
+    }
+}
